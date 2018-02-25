@@ -5,6 +5,8 @@ package random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Validation {
 	public static void main(String[] args) {
 
@@ -16,8 +18,22 @@ public class Validation {
 		// 2. On paper, write all the numbers that get printed when you run this class
 		// 10 times
 
-		System.out.println(randomNumber);
-
+		
+		if(randomNumber==0) {
+			System.out.println("Nice Hair!");
+		}
+		else if(randomNumber==1) {
+			System.out.println("You're smart!");
+		}
+		else if(randomNumber==2) {
+			System.out.println("You're amazing!");
+		}
+		else if(randomNumber==3) {
+			System.out.println("You're cool!");
+		}
+		else if(randomNumber==4) {
+			System.out.println("Exemplary");
+		}
 		// 3. Use each value of randomNumber to give the user a random compliment.
 
 		// 4. Repeat all the code above 10 times

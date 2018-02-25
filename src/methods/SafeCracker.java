@@ -18,7 +18,9 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-
+		for(int x=0; x<1000000000;x++) {
+			tryCode(x);
+		}
 
 	}
 
@@ -45,5 +47,5 @@ public class SafeCracker {
 		}
 	}
 
-	final static int wekncrzpasfdkjhcfjse = new Random().nextInt(100);
+	final static int wekncrzpasfdkjhcfjse = new Random().nextInt(10000000);
 }
